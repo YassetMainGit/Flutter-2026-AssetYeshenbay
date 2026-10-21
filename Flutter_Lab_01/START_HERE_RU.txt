@@ -1,0 +1,35 @@
+FLUTTER LAB 1 — MAKER SESSIONS
+
+Начни с папки maker_sessions: открой её целиком в VS Code.
+В этой папке уже есть исходники, изображение, Android/web файлы,
+README, три скриншота и Git-история из 20 содержательных коммитов.
+
+Быстрый запуск на Windows из терминала папки maker_sessions:
+flutter pub get
+flutter run -d edge
+
+Финальные штрихи:
+1. Вверху README.md замени [YOUR FULL NAME], [YOUR GROUP], [YOUR STUDENT ID].
+2. В приложении заполни Profile → Name и Group (пример IT-2301), затем Enter/Done.
+3. Если нужны Android-скриншоты, замени три PNG в docs/screenshots.
+4. Проверь flutter analyze и dart format ., затем загрузи репозиторий в GitHub.
+
+Точная инструкция с командами GitHub:
+maker_sessions/docs/FINAL_STEPS_RU.md
+
+Все 16 заданий защиты, объяснение архитектуры и речь на английском:
+maker_sessions/docs/DEFENCE_RU.md
+
+Карта R1–R41:
+maker_sessions/docs/REQUIREMENTS.md
+
+Проверенные сборки и сценарии, ограничения Android-проверки:
+maker_sessions/docs/VERIFICATION.md
+
+Резервная копия истории — maker_sessions.bundle рядом с папкой проекта.
+Если распаковщик потерял историю Git, выполни из этой папки:
+git clone maker_sessions.bundle maker_sessions_restored
+
+Данные приложения по условию хранятся только в памяти.
+Полный перезапуск возвращает начальные записи и пустой профиль.
+По заданию сдаётся ссылка на GitHub; отдельный Word/PDF-отчёт не требуется.
